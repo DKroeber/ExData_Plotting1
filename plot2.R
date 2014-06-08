@@ -30,6 +30,7 @@ total[ , total$Global_active_power == "?" ] = NA
 ####make plot1
 with(total, plot(x,Global_active_power, 
                  ylab="Global Active Power (kilowatts)",
+                 xlab="",
                  type='n'   ###so that I can make custom plot later
                  )
      )
