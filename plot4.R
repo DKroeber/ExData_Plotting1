@@ -18,7 +18,7 @@ total<-rbind(data1,data2)     ####has 2880 rows
 
  
 ###save plot
- png(file = "plot3.png") ## Open png device; create 'plot1.png' in my working directory
+ png(file = "plot4.png") ## Open png device; create 'plot1.png' in my working directory
  
  ####allow for 4 plots, 2x2
  par(mfrow = c(2, 2)) 
